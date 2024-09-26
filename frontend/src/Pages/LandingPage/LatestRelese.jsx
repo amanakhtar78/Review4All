@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import rrr from "../../Components/Images/rrrr.jpg";
 import rrr2 from "../../Components/Images/rrr2.jpg";
-import rrr2 from "../../Components/Images/rrr2.jpg";
 import banner1 from "../../Components/Images/banner1.jpg";
 const LatestRelease = () => {
   const latestMovies = [
