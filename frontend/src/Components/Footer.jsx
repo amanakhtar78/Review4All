@@ -37,7 +37,7 @@ const Footer = () => {
 
           {/* All Rights Reserved */}
           <div className="mt-6 sm:mt-0">
-            <p>&copy; 2024 Review4All. All Rights Reserved.</p>
+            <p>&copy; 2024 Review4All. All Rights Reserved..</p>
           </div>
         </div>
       </div>
