@@ -2,17 +2,26 @@ import React from "react";
 import { Link } from "react-router-dom";
 import rrr from "../../Components/Images/rrrr.jpg";
 import rrr2 from "../../Components/Images/rrr2.jpg";
+import rrr2 from "../../Components/Images/rrr2.jpg";
+import banner1 from "../../Components/Images/banner1.jpg";
 const LatestRelease = () => {
   const latestMovies = [
     {
-      title: "Movie 1",
+      title: "JAWAN",
+      releaseDate: "September 25, 2024",
+      description: "A thrilling action-packed movie.",
+      img: banner1,
+      link: "/MovieLanding",
+    },
+    {
+      title: "RRR",
       releaseDate: "September 25, 2024",
       description: "A thrilling action-packed movie.",
       img: rrr,
-      link: "MovieLanding",
+      link: "/MovieLanding",
     },
     {
-      title: "Movie 2",
+      title: "STREE",
       releaseDate: "September 20, 2024",
       description: "An emotional journey of love and loss.",
       img: rrr2,
