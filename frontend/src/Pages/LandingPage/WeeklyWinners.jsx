@@ -57,7 +57,7 @@ const WeeklyWinners = () => {
               alt={movie.title}
               className="w-[250px] h-32 object-cover rounded mb-4"
             />
-            <h3 className="font-bold text-lg">{movie.title}</h3>
+            <h3 className="font-bold text-lg w-[250px]">{movie.title}</h3>
             <p className="text-gray-500">Earnings: {movie.earnings}</p>
             <p className="mt-2">
               {movie.performance === "more"
